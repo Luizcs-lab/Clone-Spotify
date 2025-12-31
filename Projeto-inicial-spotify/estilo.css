@@ -1,0 +1,147 @@
+/*
+*
+*@author Cesar Luiz
+*@version 0.1
+*/
+/*================Layout===================*/
+body, html, .capa {
+  height: 100%;
+  
+}
+body {
+  border: 1px solid black;
+  background: 
+  url('imagens/capa.png') no-repeat center center fixed,
+  url('imagens/ruido.png'), 
+  linear-gradient(50deg, rgb(89, 203, 231), rgb(15, 38, 170));
+
+  background-attachment: fixed;
+  
+}
+/*--Barra de navegação--*/
+.img-logo {
+  width: 132px;
+  height: 40px;
+  background: url('imagens/spotify.svg') no-repeat;
+  display: block;
+  
+  background-size: contain;
+  color: transparent;
+  
+}
+
+nav.navbar-transparent {
+  padding: 15px 0px;
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+}
+.navbar-brand{
+  padding: 5px 15px;
+}
+.divisor {
+  width: 1px;
+  height: 15px;
+  background: white;
+  margin: 15px 10px;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+  
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #1ED760;
+  
+}
+/*--Capa--*/
+.capa {
+  width: 100%;
+  display: table;
+  
+}
+.texto-capa {  
+  text-align: center;
+  color: white;  
+  display: table-cell;
+  vertical-align: middle;
+}
+/*=================Botões=================*/
+.btn-custom {
+  color: #ffffff;
+  border-radius: 10px solid #009133;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  
+}
+.btn-roxo {
+  background-color: #7200A1;
+  border-color: #7200A1;
+  
+}
+.btn-branco {  
+  border-color: #ffffff;
+  
+  
+}
+/*=================Seção Serviços=================*/
+#servicos {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.albuns{
+  padding: 10px 0px 10px 0px;
+}
+/*=================Seção Recursos=================*/
+#recursos {  
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#recursos h2, #recursos h3 {
+ 
+  color: #1d00a1;
+  
+}
+#recursos p {
+ color: white;
+  
+}
+.rotacionar {
+  -ms-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+  padding-left: 80px;
+  
+}
+footer {
+  background-color: #121212;
+  color: white;
+  padding: 20px 0px 20px 0px;
+  position: relative;
+  
+}
+.redes-sociais {
+  float: right;
+  padding: 5px 15px 0px 0px;
+}
+/*=================Tipografia=================*/
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+ 
+}
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  
+}
+h3 {
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+#servicos h2, #servicos h3 {
+  color: #7200A1;
+  
+}
